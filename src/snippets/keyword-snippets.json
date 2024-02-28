@@ -1,0 +1,100 @@
+{
+    "mist.makeUnitTable": {
+        "scope": "lua",
+        "prefix": "mist.makeUnitTable",
+        "body": [
+            "local ${1:table} = mist.makeUnitTable(${2:table})$0"
+        ],
+        "description": ""
+    },
+
+    "mist.flagFunc.mapobjs_dead_zones": {
+        "scope": "lua",
+        "prefix": "mist.flagFunc.mapobjs_dead_zones",
+        "body": [
+            "mist.flagFunc.mapobjs_dead_zones(${1:table})$0"
+        ],
+        "description": ""
+    },
+
+    "mist.flagFunc.mapobjs_dead_polygon": {
+        "scope": "lua",
+        "prefix": "mist.flagFunc.mapobjs_dead_polygon",
+        "body": [
+            "mist.flagFunc.mapobjs_dead_polygon(${1:table vars})$0"
+        ],
+        "description": "mist.flagFunc.mapobjs_dead_polygon"
+    },
+
+    "mist.flagFunc.units_in_zones": {
+        "scope": "lua",
+        "prefix": "mist.flagFunc.units_in_zones",
+        "body": [
+            "mist.flagFunc.units_in_zones(${1:table vars})$0"
+        ],
+        "description": ""
+    },
+
+    "mist.flagFunc.units_in_moving_zones": {
+        "scope": "lua",
+        "prefix": "mist.flagFunc.units_in_moving_zones",
+        "body": [
+            "mist.flagFunc.units_in_moving_zones(${1:table vars})$0"
+        ],
+        "description": ""
+    },
+
+    "mist.flagFunc.units_in_polygon": {
+        "scope": "lua",
+        "prefix": "mist.flagFunc.units_in_polygon",
+        "body": [
+            "mist.flagFunc.units_in_polygon(${1:table vars})$0"
+        ],
+        "description": ""
+    },
+
+    "mist.flagFunc.units_LOS": {
+        "scope": "lua",
+        "prefix": "mist.flagFunc.units_LOS",
+        "body": [
+            "mist.flagFunc.units_LOS(${1:table vars})$0"
+        ],
+        "description": ""
+    },
+
+    "mist.flagFunc.group_alive": {
+        "scope": "lua",
+        "prefix": "mist.flagFunc.group_alive",
+        "body": [
+            "mist.flagFunc.group_alive(${1:table vars})$0"
+        ],
+        "description": ""
+    },
+
+    "mist.flagFunc.group_dead": {
+        "scope": "lua",
+        "prefix": "mist.flagFunc.group_dead",
+        "body": [
+            "mist.flagFunc.group_dead(${1:table vars})$0"
+        ],
+        "description": ""
+    },
+
+    "mist.flagFunc.group_alive_less_than": {
+        "scope": "lua",
+        "prefix": "mist.flagFunc.group_alive_less_than",
+        "body": [
+            "mist.flagFunc.group_alive_less_than(${1:table vars})$0"
+        ],
+        "description": ""
+    },
+
+    "mist.flagFunc.group_alive_more_than": {
+        "scope": "lua",
+        "prefix": "mist.flagFunc.group_alive_more_than",
+        "body": [
+            "mist.flagFunc.group_alive_more_than(${1:table vars})$0"
+        ],
+        "description": ""
+    }
+}
